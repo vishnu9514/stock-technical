@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (large CSVs, Excel, etc.)
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/atr_data/
+data/backtests/
+data/band_data/
+data/bse_bhavcopy/
+data/bse_stocks/
+data/industry_files/
+data/nse_bhavcopy/
+data/nse_indicators/
+data/nse_monthly/
+data/nse_quarterly/
+data/nse_stocks/
+data/nse_weekly/
+data/tr_data/
+data/trend_data/
+
+# Master data
+master/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
